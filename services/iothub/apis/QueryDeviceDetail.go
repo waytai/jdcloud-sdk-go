@@ -136,8 +136,8 @@ type QueryDeviceDetailResult struct {
     Description string `json:"description"`
     ActivatedTime int64 `json:"activatedTime"`
     LastConnectedTime int64 `json:"lastConnectedTime"`
-    CreatedTime int64 `json:"createdTime"`
-    UpdatedTime int64 `json:"updatedTime"`
+    CreatedTime string `json:"createdTime"`
+    UpdatedTime string `json:"updatedTime"`
     ProductName string `json:"productName"`
     Model string `json:"model"`
     Manufacturer string `json:"manufacturer"`
