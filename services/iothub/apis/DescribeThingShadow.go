@@ -127,6 +127,6 @@ type DescribeThingShadowResponse struct {
 type DescribeThingShadowResult struct {
     State interface{} `json:"state"`
     Metadata interface{} `json:"metadata"`
-    Version int `json:"version"`
+    Version interface{} `json:"version"`
     Timestamp int64 `json:"timestamp"`
 }
