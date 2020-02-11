@@ -112,12 +112,12 @@ type DescribeProductResponse struct {
 
 type DescribeProductResult struct {
     ProductName string `json:"productName"`
-    ProductType int `json:"productType"`
+    ProductType float32 `json:"productType"`
     ProductKey string `json:"productKey"`
     ProductSecret string `json:"productSecret"`
-    CreatedTime int64 `json:"createdTime"`
-    DeviceCount int `json:"deviceCount"`
-    DynamicRegister int `json:"dynamicRegister"`
+    CreatedTime float32 `json:"createdTime"`
+    DeviceCount float32 `json:"deviceCount"`
+    DynamicRegister float32 `json:"dynamicRegister"`
     ProductDescription string `json:"productDescription"`
     TemplateName string `json:"templateName"`
 }
